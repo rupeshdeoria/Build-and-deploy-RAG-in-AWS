@@ -1,0 +1,4 @@
+conda create -p envgenai python=3.10 -y
+source activate ./envgenai/
+conda deactivate
+
