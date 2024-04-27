@@ -1,4 +1,7 @@
 conda create -p envgenai python=3.10 -y
 source activate ./envgenai/
 conda deactivate
-
+git add .
+git commit -m "code folder updated"
+git remote add origin https://github.com/rupeshdeoria/Build-and-deploy-RAG-in-AWS.git
+git remote -v
