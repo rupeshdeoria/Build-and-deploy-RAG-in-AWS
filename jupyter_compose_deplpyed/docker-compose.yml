@@ -1,0 +1,14 @@
+version: '3'
+services:
+  pyspark-notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - D:/ineuron/v2_projects/jupyter-docker-aws/jupyter_compose/work:/home/jovyan/work
+    ports:
+      - "8080:8888"
+      - "54321:54321"
+      - "8050:8050"
+           
+
